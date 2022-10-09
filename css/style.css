@@ -1,0 +1,168 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v130/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+* {
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+
+}
+td {
+	height: 51.8px;
+	width: 70px;
+	text-align: center;
+	font-weight: bolder;
+}
+body{
+    background-image: url('..//png/bg.jpg');
+    height: 100vh;
+}
+.board{
+	margin-left: 37%;
+}
+.c1 {
+	background-color: #caf2ff;
+}
+.c2 {
+	background-color: #f9ffc1;
+}
+.c3 {
+	background-color: #9efc9e;
+}
+.c4 {
+	background-color: #faa9ec;
+}
+.c5 {
+	background-color: #ff5555;
+}
+.c6 {
+	background-color: #ffca85;
+}
+#s1 {
+	position: absolute;
+	top: 1.5%;
+	left: 48%;
+    height: 300px;;
+}
+#s2 {
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	height: 300px;
+}
+#s3 {
+	position: absolute;
+	top: 20%;
+	left: 70%;
+    transform: rotateZ(53deg);
+}
+#s4 {
+	position: absolute;
+	top: 9%;
+	left: 70%;
+	transform: rotateZ(24deg);
+}
+#s5 {
+	position: absolute;
+	top: 46%;
+	left: 42%;
+	transform: rotateZ(-29deg);
+}
+#s6 {
+	position: absolute;
+	top: 23%;
+	left: 60%;
+	transform: rotate(45deg);
+    height: 300px;
+}
+#l1 {
+	position: absolute;
+	top: 50%;
+	transform: rotate(-50deg);
+	left: 47%;
+	width: 80px;
+}
+#l2 {
+	position: absolute;
+	top: 23%;
+	left: 63.5%;
+	width: 80px;
+	height: 150px;
+}
+#l3 {
+	position: absolute;
+	transform: rotate(32deg);
+	width: 80px;
+	top: 18%;
+	left: 45%;
+	height: 150px;
+}
+#l4 {
+	height: 253px;
+	width: 80px;
+	position: absolute;
+	top: 40%;
+	left: 79.5%;
+}
+#l5 {
+	height: 171px;
+	width: 80px;
+	position: absolute;
+	transform: rotate(25deg);
+	top: 3%;
+	left: 82%;
+}
+#btn {
+	height: 70px;
+	width: 200px;
+	background-color: #ff0000;
+	color: rgb(255, 254, 253);
+    border: none;
+	font-size: xxx-large;
+	font-weight: bolder;
+	position: absolute;
+	top: 35%;
+	left: 9%;
+	text-align: center;
+	cursor: pointer;
+}
+#btn:hover{
+    background-color: #ff5555;
+}
+#dice {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border: solid floralwhite 4px;
+	top: 15%;
+	left: 12%;
+
+}
+#dice img {
+	height: 100%;
+	width: 100%;
+}
+#snakeMsg{
+	position: absolute;
+    	top: 55%;
+    	left: 12%;
+	padding: 13px;
+}
